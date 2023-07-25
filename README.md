@@ -18,7 +18,15 @@ npm install
 
 3. Ejecuta todos los query de la base de datos del archivo **db.sql**
 
-4. Ejecuta el programa
+4. Cambia tus variables de entorno
+
+```env
+MY_CONFIG={"hostname":"", "port":5020}
+MY_CONNECTION={"host":"", "user":"","password":"","database":"", "port":3306}
+JWT_PRIVATE_KEY="campus"
+```
+
+5. Ejecuta el programa
 
 ```bash
 npm run dev
@@ -165,15 +173,8 @@ http://127.10.16.15:5020/editoriales
 
 ```text
 http://127.10.16.15:5020/estados_libros
-
-
+```
 
 # AUTOR
 
 ![Jean0405](https://github.com/Jean0405)
-
-```
-
-```
-
-```
