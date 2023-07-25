@@ -18,7 +18,7 @@ npm install
 
 3. Ejecuta todos los query de la base de datos del archivo **db.sql**
 
-4. Cambia tus variables de entorno
+4. Cambia a tus variables de entorno
 
 ```env
 MY_CONFIG={"hostname":"", "port":5020}
